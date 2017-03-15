@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="Ajax">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/PopularNames.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NameGenerator.iml" afterPath="$PROJECT_DIR$/.idea/NameGenerator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="Attempting to locate name content through ajax">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
@@ -55,11 +51,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+            <state relative-caret-position="290">
+              <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
               <folding>
-                <marker date="1489511300334" expanded="true" signature="3386:3539" ph="..." />
-                <marker date="1489511300334" expanded="true" signature="3479:3507" ph="..." />
+                <marker date="1489556471026" expanded="true" signature="3358:3511" ph="..." />
+                <marker date="1489556471026" expanded="true" signature="3451:3479" ph="..." />
               </folding>
             </state>
           </provider>
@@ -364,7 +360,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489477731418</updated>
-      <workItem from="1489477732560" duration="9034000" />
+      <workItem from="1489477732560" duration="15139000" />
     </task>
     <task id="LOCAL-00001" summary="HTML5 Boilerplate added">
       <created>1489478019963</created>
@@ -380,11 +376,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489479689208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajax cross-domain GET applied">
+      <created>1489511572139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489511572139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9034000" />
+    <option name="totallyTimeSpent" value="15139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +404,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021075" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49789253" order="-1" side_tool="false" content_ui="tabs" />
@@ -467,7 +470,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HTML5 Boilerplate added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML5 Boilerplate added" />
+    <MESSAGE value="Ajax cross-domain GET applied" />
+    <MESSAGE value="Attempting to locate name content through ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempting to locate name content through ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -526,11 +531,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="290">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
           <folding>
-            <marker date="1489511300334" expanded="true" signature="3386:3539" ph="..." />
-            <marker date="1489511300334" expanded="true" signature="3479:3507" ph="..." />
+            <marker date="1489556471026" expanded="true" signature="3358:3511" ph="..." />
+            <marker date="1489556471026" expanded="true" signature="3451:3479" ph="..." />
           </folding>
         </state>
       </provider>

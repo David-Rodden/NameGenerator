@@ -15,9 +15,8 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
-        var your_url = "http://surnames.behindthename.com/top/lists/france/2005";
+        var your_url = "https://nameberry.com/popular_names/US";
         jQuery.ajax = (function (_ajax) {
-
             var protocol = location.protocol,
                     hostname = location.hostname,
                     exRegex = new RegExp(protocol + '//' + hostname),
@@ -29,13 +28,9 @@
             }
 
             return function (o) {
-
                 var url = o.url;
-
                 if (/get/i.test(o.type) && !/json/i.test(o.dataType) && isExternal(url)) {
-
                     // Manipulate options so that JSONP-x request is made to YQL
-
                     o.url = YQL;
                     o.dataType = 'json';
 
@@ -48,17 +43,14 @@
                         ),
                         format: 'xml'
                     };
-
                     // Since it's a JSONP request
                     // complete === success
                     if (!o.success && o.complete) {
                         o.success = o.complete;
                         delete o.complete;
                     }
-
                     o.success = (function (_success) {
                         return function (data) {
-
                             if (_success) {
                                 // Fake XHR callback.
                                 _success.call(this, {
@@ -68,14 +60,10 @@
                                             .replace(/<script[^>]+?\/>|<script(.|\s)*?\/script>/gi, '')
                                 }, 'success');
                             }
-
                         };
                     })(o.success);
-
                 }
-
                 return _ajax.apply(this, arguments);
-
             };
 
         })(jQuery.ajax);
@@ -85,9 +73,8 @@
             url: your_url,
             type: 'GET',
             success: function (res) {
-                var text = res.responseText;
                 // then you can manipulate your text as you wish
-                console.log(text);
+                console.log($('<div>').html(res).find('#inner-content').html());
             }
         });
     </script>
@@ -100,11 +87,11 @@
 
 <!-- Add your site or application content here -->
 <p>Hello world! This is HTML5 Boilerplate.</p>
-<select name="language-select" id="language-select">
+<label for="language-select"></label><select name="language-select" id="language-select">
     <option value="one">THIS IS ONE</option>
     <option value="two">THIS IS TWO</option>
 </select>
-<input type="text" id="textbox">
+<label for="textbox"></label><input type="text" id="textbox">
 <input type="button" value="Get name" onclick="getName()">
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
