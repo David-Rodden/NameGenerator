@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="Attempting to locate name content through ajax">
+    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="Will instead provide data to display on site instead of pulling from other sites">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/PopularNames.js" afterPath="$PROJECT_DIR$/src/js/PopularNames.js" />
     </list>
     <ignored path="NameGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopularNames.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PopularNames.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/PopularNames.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="364">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -48,15 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+            <state relative-caret-position="494">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
-                <marker date="1489556471026" expanded="true" signature="3358:3511" ph="..." />
-                <marker date="1489556471026" expanded="true" signature="3451:3479" ph="..." />
+                <marker date="1489640587618" expanded="true" signature="3393:3546" ph="..." />
+                <marker date="1489640587618" expanded="true" signature="3486:3514" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,8 +125,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/crossdomain.xml" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/js/PopularNames.js" />
         <option value="$PROJECT_DIR$/src/css/normalize.css" />
+        <option value="$PROJECT_DIR$/src/test.txt" />
+        <option value="$PROJECT_DIR$/src/js/PopularNames.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
@@ -360,7 +373,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489477731418</updated>
-      <workItem from="1489477732560" duration="15139000" />
+      <workItem from="1489477732560" duration="19489000" />
     </task>
     <task id="LOCAL-00001" summary="HTML5 Boilerplate added">
       <created>1489478019963</created>
@@ -383,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489511572139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attempting to locate name content through ajax">
+      <created>1489556479818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489556479818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15139000" />
+    <option name="totallyTimeSpent" value="19489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,7 +492,8 @@
     <MESSAGE value="HTML5 Boilerplate added" />
     <MESSAGE value="Ajax cross-domain GET applied" />
     <MESSAGE value="Attempting to locate name content through ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempting to locate name content through ajax" />
+    <MESSAGE value="Will instead provide data to display on site instead of pulling from other sites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Will instead provide data to display on site instead of pulling from other sites" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -519,23 +540,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/PopularNames.js">
+    <entry file="file://$PROJECT_DIR$/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        <state relative-caret-position="494">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
-            <marker date="1489556471026" expanded="true" signature="3358:3511" ph="..." />
-            <marker date="1489556471026" expanded="true" signature="3451:3479" ph="..." />
+            <marker date="1489640587618" expanded="true" signature="3393:3546" ph="..." />
+            <marker date="1489640587618" expanded="true" signature="3486:3514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/PopularNames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
