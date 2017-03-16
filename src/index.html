@@ -75,7 +75,7 @@
             type: 'GET',
             success: function (res) {
                 // then you can manipulate your text as you wish
-                console.log($('<div>').html(res).find('??').html());
+//                console.log($('<div>').html(res).find('??').html());
             }
         });
     </script>
@@ -93,7 +93,7 @@
     <option value="two">THIS IS TWO</option>
 </select>
 <div id="text-file"></div>
-<script>readInput();</script>
+<script>console.log(readInput());</script>
 <label for="textbox"></label><input type="text" id="textbox">
 <input type="button" value="Get name" onclick="getName()">
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

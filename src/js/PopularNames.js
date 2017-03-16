@@ -24,5 +24,5 @@ function readFile(file, out) {
     http.send();
 }
 function readInput() {
-    readFile('test.txt', document.getElementById('text-file'));
+    readFile('boy_names.txt', document.getElementById('text-file'));
 }
