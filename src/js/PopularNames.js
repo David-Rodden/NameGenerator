@@ -16,13 +16,12 @@ countries.forEach(function (element) {
 });
 
 function readFile(file, out) {
-    var http = new XMLHttpRequest();
-    http.open('get', file);
-    http.onreadystatechange = function () {
-        out.innerHTML = http.responseText.replace(/\n/g, '<br>');
-    };
-    http.send();
+    $.get("boy_names.txt", function (data) {
+        var names = data.split('\n');
+        console.log("hi " + names[Math.floor(Math.random() * names.length)]);
+    });
 }
 function readInput() {
+    // return readFile('boy_names.txt');
     readFile('boy_names.txt', document.getElementById('text-file'));
 }
