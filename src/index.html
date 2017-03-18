@@ -93,9 +93,10 @@
 </select>
 <p class="text" id="rolled-name">Nada</p>
 <script>console.log(readInput());</script>
-<label for="textbox"></label><input type="text" id="textbox">
-<input type="button" value="Get name" onclick="getName()">
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+<div id="get-name">
+    <input type="button" value="Get name" onclick="readInput()">
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+</div>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 

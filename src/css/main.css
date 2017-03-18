@@ -87,7 +87,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background: azure;
+}
 
+#get-name{
+    text-align: center;
+}
+#rolled-name {
+    color: black;
+    font-family: "A Dark Wedding", fantasy;
+    font-style: inherit;
+    text-align: center;
+    text-shadow: 0 0 2px grey;
+    font-size: x-large;
+}
 
 /* ==========================================================================
    Helper classes
