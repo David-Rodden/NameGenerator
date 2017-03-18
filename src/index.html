@@ -16,7 +16,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/PopularNames.js"></script>
     <script>
-        var your_url = "https://nameberry.com/popular_names/US";
         jQuery.ajax = (function (_ajax) {
             var protocol = location.protocol,
                     hostname = location.hostname,
@@ -68,16 +67,6 @@
             };
 
         })(jQuery.ajax);
-
-
-        $.ajax({
-            url: your_url,
-            type: 'GET',
-            success: function (res) {
-                // then you can manipulate your text as you wish
-//                console.log($('<div>').html(res).find('??').html());
-            }
-        });
     </script>
 </head>
 <body>
@@ -103,10 +92,10 @@
     <input id="spanish" type="image" src="img/spain.png" alt="spanish" onclick="languageSelect(this)">
     <input id="portuguese" type="image" src="img/portugal.png" alt="portuguese" onclick="languageSelect(this)">
 </div>
-<p class="text" id="rolled-name">Nada</p>
+
+<div id="name-banner"><p class="text" id="rolled-name">Nada</p></div>
 <script>console.log(readInput());</script>
 <div id="get-name">
-    <input id="get-name-button" type="button" value="Get name" onclick="readInput()">
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
 </div>
 <script src="js/plugins.js"></script>

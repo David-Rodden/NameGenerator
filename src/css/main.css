@@ -100,6 +100,13 @@ body {
     font-family: "High Tower Text", serif;
 }
 
+#name-banner {
+    background-image: url("banner.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5%;
+}
+
 #rolled-name {
     color: black;
     font-family: "High Tower Text", fantasy;
@@ -107,6 +114,8 @@ body {
     text-align: center;
     text-shadow: 0 0 2px grey;
     font-size: xx-large;
+    padding-top: 5%;
+    height: 350px;
 }
 
 #languages {
