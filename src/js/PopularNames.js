@@ -4,6 +4,7 @@
 
 var baseUrl = "http://www.studentsoftheworld.info/penpals/stats.php3?Pays=";
 var countries = ["ESP", "FRA"];
+var usingMiddle = true;
 
 countries.forEach(function (element) {
     $.ajax({
@@ -28,5 +29,8 @@ function readFile(file, size, element) {
     });
 }
 function readInput() {
-    console.log(readFile('boy_names.txt', 3, document.getElementById("rolled-name")));
+    readFile($("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
+}
+function setMiddle() {
+    usingMiddle = !usingMiddle;
 }

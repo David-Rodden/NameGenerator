@@ -88,13 +88,18 @@
 
 <!-- Add your site or application content here -->
 <label for="language-select"></label><select name="language-select" id="language-select">
-    <option value="one">THIS IS ONE</option>
-    <option value="two">THIS IS TWO</option>
+    <option value="one">Male</option>
+    <option value="two">Female</option>
 </select>
+<br>
+<label>
+    <input type="checkbox" checked onchange="setMiddle()">
+    Middle name
+</label>
 <p class="text" id="rolled-name">Nada</p>
 <script>console.log(readInput());</script>
 <div id="get-name">
-    <input type="button" value="Get name" onclick="readInput()">
+    <input id="get-name-button" type="button" value="Get name" onclick="readInput()">
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
 </div>
 <script src="js/plugins.js"></script>

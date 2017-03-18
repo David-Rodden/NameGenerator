@@ -94,13 +94,17 @@ body {
 #get-name{
     text-align: center;
 }
+#get-name-button{
+    font-size:x-large;
+    font-family: "High Tower Text", serif;
+}
 #rolled-name {
     color: black;
-    font-family: "A Dark Wedding", fantasy;
+    font-family: "High Tower Text", fantasy;
     font-style: inherit;
     text-align: center;
     text-shadow: 0 0 2px grey;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 /* ==========================================================================
