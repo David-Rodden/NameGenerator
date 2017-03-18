@@ -5,16 +5,7 @@
 var baseUrl = "http://www.studentsoftheworld.info/penpals/stats.php3?Pays=";
 var countries = ["ESP", "FRA"];
 var usingMiddle = true;
-
-countries.forEach(function (element) {
-    $.ajax({
-        url: href,
-        type: 'GET',
-        success: function (data) {
-            console.log(data)
-        }
-    })
-});
+var language = "french";
 
 function readFile(file, size, element) {
     $.get(file, function (data) {
@@ -29,8 +20,16 @@ function readFile(file, size, element) {
     });
 }
 function readInput() {
-    readFile($("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
+    readFile(language + '_' + $("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
 }
 function setMiddle() {
     usingMiddle = !usingMiddle;
+}
+
+
+function languageSelect(element) {
+    $("#languages").find(":input").css({height: "", width: ""});
+    $(this).css({width: "400px"});
+    language = element.alt;
+    readInput();
 }
