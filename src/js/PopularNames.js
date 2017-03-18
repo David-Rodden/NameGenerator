@@ -15,13 +15,18 @@ countries.forEach(function (element) {
     })
 });
 
-function readFile(file, out) {
-    $.get("boy_names.txt", function (data) {
-        var names = data.split('\n');
-        console.log("hi " + names[Math.floor(Math.random() * names.length)]);
+function readFile(file, size, element) {
+    $.get(file, function (data) {
+        var globalName = "";
+        var names = data.split('\r\n');
+        for (i = 0; i < size; i++) {
+            var chosen = Math.floor(Math.random() * names.length);
+            globalName += names[chosen] + " ";
+            names.splice(chosen, 1);
+        }
+        element.innerText = globalName;
     });
 }
 function readInput() {
-    // return readFile('boy_names.txt');
-    readFile('boy_names.txt', document.getElementById('text-file'));
+    console.log(readFile('boy_names.txt', 3, document.getElementById("rolled-name")));
 }
