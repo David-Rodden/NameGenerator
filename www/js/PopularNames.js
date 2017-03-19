@@ -5,8 +5,9 @@
 var usingMiddle = true;
 var language = "french";
 
-function readFile(file, size, element) {
-    $.get(file, function (data) {
+function readFile(size, element) {
+    var currentLanguage = $("#language-select").find("option:selected").text().toLowerCase();
+    $.get('../www/' + language + '_' + currentLanguage + '_names.txt', function (data) {
         var globalName = "";
         var names = data.split('\r\n');
         for (i = 0; i < size; i++) {
@@ -14,11 +15,16 @@ function readFile(file, size, element) {
             globalName += names[chosen] + " ";
             names.splice(chosen, 1);
         }
-        element.innerText = globalName;
+        $.get('../www/' + language + '_surnames.txt', function (data) {
+            names = data.split('\n');
+            globalName += " " + names[Math.floor(Math.random() * names.length)];
+            element.innerText = globalName;
+        });
     });
+
 }
 function readInput() {
-    readFile('../www/' + language + '_' + $("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
+    readFile(usingMiddle ? 2 : 1, document.getElementById("rolled-name"));
 }
 function setMiddle() {
     usingMiddle = !usingMiddle;

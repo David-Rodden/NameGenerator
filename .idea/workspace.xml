@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="Deciding to try google cloud appspot instead for static site">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/banner.svg" afterPath="$PROJECT_DIR$/www/images/banner.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/normalize.css" afterPath="$PROJECT_DIR$/app.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/english_female_names.txt" afterPath="$PROJECT_DIR$/www/english_female_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/english_male_names.txt" afterPath="$PROJECT_DIR$/www/english_male_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/french_female_names.txt" afterPath="$PROJECT_DIR$/www/french_female_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/french_male_names.txt" afterPath="$PROJECT_DIR$/www/french_male_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/home.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/humans.txt" afterPath="$PROJECT_DIR$/www/humans.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/.gitignore" afterPath="$PROJECT_DIR$/www/css/normalize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/Male-50.png" afterPath="$PROJECT_DIR$/www/images/Male-50.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/english.png" afterPath="$PROJECT_DIR$/www/images/english.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/france.png" afterPath="$PROJECT_DIR$/www/images/france.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/italy.png" afterPath="$PROJECT_DIR$/www/images/italy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/portugal.png" afterPath="$PROJECT_DIR$/www/images/portugal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/spain.png" afterPath="$PROJECT_DIR$/www/images/spain.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/italian_female_names.txt" afterPath="$PROJECT_DIR$/www/italian_female_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/italian_male_names.txt" afterPath="$PROJECT_DIR$/www/italian_male_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/PopularNames.js" afterPath="$PROJECT_DIR$/www/js/PopularNames.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="$PROJECT_DIR$/www/js/plugins.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/portuguese_female_names.txt" afterPath="$PROJECT_DIR$/www/portuguese_female_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/portuguese_male_names.txt" afterPath="$PROJECT_DIR$/www/portuguese_male_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/regex_search.txt" afterPath="$PROJECT_DIR$/www/regex_search.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/robots.txt" afterPath="$PROJECT_DIR$/www/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spanish_female_names.txt" afterPath="$PROJECT_DIR$/www/spanish_female_names.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spanish_male_names.txt" afterPath="$PROJECT_DIR$/www/spanish_male_names.txt" />
+    <list default="true" id="be2a3013-35ee-4084-b972-c67260fb9db9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/english_surnames.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/french_surnames.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/italian_surnames.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/portuguese_surnames.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spanish_surnames.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/PopularNames.js" afterPath="$PROJECT_DIR$/www/js/PopularNames.js" />
     </list>
     <ignored path="NameGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PopularNames.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PopularNames.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/PopularNames.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="546">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -68,7 +43,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="french_surnames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/french_surnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="481" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portuguese_surnames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/portuguese_surnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spanish_surnames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/spanish_surnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="english_surnames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/english_surnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="italian_surnames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/italian_surnames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="humans.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/humans.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
@@ -77,26 +112,6 @@
                 <marker date="1489896376009" expanded="true" signature="2953:3106" ph="..." />
                 <marker date="1489896376009" expanded="true" signature="3046:3074" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/plugins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,41 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -198,8 +183,14 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/www/poop.css" />
-        <option value="$PROJECT_DIR$/www/js/PopularNames.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/french_surname.txt" />
+        <option value="$PROJECT_DIR$/www/italian_surnames.txt" />
+        <option value="$PROJECT_DIR$/www/portuguese_surnames.txt" />
+        <option value="$PROJECT_DIR$/www/spanish_surnames.txt" />
+        <option value="$PROJECT_DIR$/www/english_surnames.txt" />
+        <option value="$PROJECT_DIR$/www/french_surnames.txt" />
+        <option value="$PROJECT_DIR$/www/js/PopularNames.js" />
       </list>
     </option>
   </component>
@@ -284,6 +275,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="david-name" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="david-name" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -303,6 +312,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -408,7 +418,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489477731418</updated>
       <workItem from="1489477732560" duration="51942000" />
-      <workItem from="1489885813330" duration="3057000" />
+      <workItem from="1489885813330" duration="8245000" />
     </task>
     <task id="LOCAL-00001" summary="HTML5 Boilerplate added">
       <created>1489478019963</created>
@@ -515,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489827503537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Deciding to try google cloud appspot instead for static site">
+      <created>1489896404367</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1489896404367</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54999000" />
+    <option name="totallyTimeSpent" value="60187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,13 +553,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19934994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42361864" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07475623" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -878,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -942,16 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/PopularNames.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -959,6 +958,72 @@
           <folding>
             <marker date="1489896376009" expanded="true" signature="2953:3106" ph="..." />
             <marker date="1489896376009" expanded="true" signature="3046:3074" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/humans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/italian_surnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/spanish_surnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/english_surnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="499" column="7" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/portuguese_surnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/french_surnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="481" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/PopularNames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
