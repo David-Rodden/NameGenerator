@@ -82,12 +82,6 @@ gulp.task('copy:.htaccess', function () {
         .pipe(gulp.dest(dirs.dist));
 });
 
-gulp.task('copy:index.html', function () {
-    return gulp.src(dirs.src + '/index.html')
-        .pipe(plugins.replace(/{{JQUERY_VERSION}}/g, pkg.devDependencies.jquery))
-        .pipe(gulp.dest(dirs.dist));
-});
-
 gulp.task('copy:jquery', function () {
     return gulp.src(['node_modules/jquery/dist/jquery.min.js'])
         .pipe(plugins.rename('jquery-' + pkg.devDependencies.jquery + '.min.js'))
@@ -103,7 +97,7 @@ gulp.task('copy:main.css', function () {
 
     var banner = '/*! HTML5 Boilerplate v' + pkg.version +
         ' | ' + (pkg.license.type + ' License' +
-        ' | ' + pkg.homepage + ' */\n\n';
+        ' | ' + pkg.homepage + ' */\n\n');
 
     return gulp.src(dirs.src + '/css/main.css')
         .pipe(plugins.header(banner))

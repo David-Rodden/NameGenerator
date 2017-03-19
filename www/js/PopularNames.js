@@ -2,8 +2,6 @@
  * Created by David on 3/14/2017.
  */
 
-var baseUrl = "http://www.studentsoftheworld.info/penpals/stats.php3?Pays=";
-var countries = ["ESP", "FRA"];
 var usingMiddle = true;
 var language = "french";
 
@@ -20,7 +18,7 @@ function readFile(file, size, element) {
     });
 }
 function readInput() {
-    readFile(language + '_' + $("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
+    readFile('../www/' + language + '_' + $("#language-select").find("option:selected").text().toLowerCase() + '_names.txt', usingMiddle ? 3 : 2, document.getElementById("rolled-name"));
 }
 function setMiddle() {
     usingMiddle = !usingMiddle;
